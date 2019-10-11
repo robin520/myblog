@@ -1329,7 +1329,9 @@ NLog配置12345678910111213141516171819202122232425262728//Program.cs文件using
       
         
           
-          当验证参数出现错误时，虽然可以在controller直接return 一个response，修改下code直接返回，如果是在其他service验证一些逻辑出现错误时，可以通过exception直接抛出错误，然后可以在中间件统一拦截就可以了。这里跟laravel的区别时，laravel可以自己设置统一
+          当验证参数出现错误时，虽然可以在controller直接return 一个response，修改下code直接返回，如果是在其他service验证一些逻辑出现错误时，可以通过exception直接抛出错误，然后可以在中间件统一拦截就可以了。
+Exception配置
+在Exceptions目录新建一个
           ...
           <!--noindex-->
           <div class="post-button text-center">
